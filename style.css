@@ -9,9 +9,9 @@
 /* Colors */
 
 :root {
-  --first-color: #4070f4;
-  --second-color: #0e2431;
-  --gardient-color: linear-gradient(to right, #5001fb, #8e0af3);
+  --first-color: #ff6b6b; /* Change to your desired first color */
+  --second-color: #403f3f; /* Change to your desired second color */
+  --gradient-color: linear-gradient(to right, #ff6b6b, #ee0979); /* Change to your desired gradient */
 }
 
 /* FONT STYLE */
@@ -110,6 +110,10 @@ img {
   z-index: var(--z-fixed);
   background: #fff;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+}
+.logo {
+  width: 40px;
+  height: auto; 
 }
 
 /* Navbar */
